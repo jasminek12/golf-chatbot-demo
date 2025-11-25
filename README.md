@@ -20,6 +20,8 @@ This project is a chatbot demo which helps users find golf courses in Florida, c
 ---
 
 ## **Project Structure**
+
+'''
 golf-chatbot-demo/
 ├─ backend/
 │ ├─ src/
@@ -33,6 +35,7 @@ golf-chatbot-demo/
 │ │ └─ reviews.json
 │ ├─ .env
 │ └─ package.json
+'''
 
 ---
 
