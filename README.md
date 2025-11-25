@@ -59,13 +59,13 @@ cd golf-chatbot-demo/backend
 npm install
 
 3. Create a .env file with API keys:
-PORT=5000
-GOLF_API_KEY=<your_golf_api_key>
-OPENWEATHER_KEY=<your_openweather_key>
-GEMINI_KEY=<your_gemini_key>
-GOOGLE_CLIENT_ID=<your_google_client_id>
-GOOGLE_CLIENT_SECRET=<your_google_client_secret>
-REDIRECT_URI=urn:ietf:wg:oauth:2.0:oob
+- PORT=5000
+- GOLF_API_KEY=<your_golf_api_key>
+- OPENWEATHER_KEY=<your_openweather_key>
+- GEMINI_KEY=<your_gemini_key>
+- GOOGLE_CLIENT_ID=<your_google_client_id>
+- GOOGLE_CLIENT_SECRET=<your_google_client_secret>
+- REDIRECT_URI=urn:ietf:wg:oauth:2.0:oob
 
 4. Start the server:
 npm run dev
