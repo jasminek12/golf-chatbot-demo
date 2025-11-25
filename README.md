@@ -52,8 +52,6 @@ golf-chatbot-demo/
 ## **Setup Instructions (so far)**
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/jasminek12/golf-chatbot-demo.git
 
 2. Install dependencies:
