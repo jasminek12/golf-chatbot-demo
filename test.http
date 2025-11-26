@@ -1,0 +1,20 @@
+### Add a review
+POST http://localhost:5000/api/reviews
+Content-Type: application/json
+
+{
+  "course_id": 15809,
+  "course_name": "The Florida Club",
+  "rating": 5,
+  "review": "Amazing course with great greens!"
+}
+
+### Get reviews for a course
+GET http://localhost:5000/api/reviews/15809
+
+### Chatbot: Get list of 10 Florida golf courses
+GET http://localhost:5000/api/chatbot/courses
+
+### Chatbot: Get 7-day weather forecast for a selected course
+# Replace `course=1` with the number corresponding to the course user selects
+GET http://localhost:5000/api/chatbot/weather?course=2
